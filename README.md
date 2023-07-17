@@ -1,6 +1,6 @@
 # RobinDD
 This is the code corresponding to the article [Robin-type domain decomposition with stabilized mixed approximation for incompressible flow].
-we present a nonoverlapping Robin-type multi-domain decomposition method based on stabilized Q1–P0 mixed approximation (RMDD-Q1P0) for incompressible flow problems. The global Stokes and Navier-Stokes equations are decomposed into a series of local problems through Robin-type domain decomposition, and local problems are solved through the local jump stabilized Q1–P0 approximation. The RMDD-Q1P0 solutions are proven to converge to the standard global Q1–P0 solutions for the Stokes problem. Numerical experiments for both Stokes and Navier-Stokes equations demonstrate that RMDD-Q1P0 significantly improves the scalability of the stabilized Q1–P0 approximation. 
+We present a nonoverlapping Robin-type multi-domain decomposition method based on stabilized Q1–P0 mixed approximation (RMDD-Q1P0) for incompressible flow problems. The global Stokes and Navier-Stokes equations are decomposed into a series of local problems through Robin-type domain decomposition, and local problems are solved through the local jump stabilized Q1–P0 approximation. The RMDD-Q1P0 solutions are proven to converge to the standard global Q1–P0 solutions for the Stokes problem. Numerical experiments for both Stokes and Navier-Stokes equations demonstrate that RMDD-Q1P0 significantly improves the scalability of the stabilized Q1–P0 approximation. 
 
 # Required MATLAB packages
 To use the package ensure the path contains:
@@ -11,7 +11,7 @@ Download the file and CD to the current path in your computer. Then run the setp
 
 # Running the examples
 There are five examples included corresponding to the examples in [Robin-type domain decomposition with stabilized mixed approximation for incompressible flow].
-These are the scripts
+Run the following scripts to get the results presented in our paper.
 ```matlab
 run_stokes_exact.m
 ```
