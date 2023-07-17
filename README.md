@@ -15,22 +15,30 @@ These are the scripts
 ```matlab
 run_stokes_exact.m
 ```
+
 and
+
 ```matlab
 run_driven_cavity.m
 ```
+
 <img align="middle" src="./assets/cavity.png" alt="uni_ngood" />
 and
+
 ```matlab
 run_navier_two.m
 ```
+
 <img align="middle" src="./assets/navier_two.png" alt="uni_ngood" />
 and
+
 ```matlab
 run_navier_six.m
 ```
+
 <img align="middle" src="./assets/navier_six.png" alt="uni_ngood" />
 and
+
 ```matlab
 run_navier_large.m
 ```
