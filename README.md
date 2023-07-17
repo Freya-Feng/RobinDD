@@ -5,9 +5,6 @@ We present a nonoverlapping Robin-type multi-domain decomposition method based o
 # Required MATLAB packages
 To use the package ensure the path contains:
 - [IFISS 3.6](https://personalpages.manchester.ac.uk/staff/david.silvester/ifiss/)
-  
-# Set path
-Download the file and CD to the current path in your computer. Then run the setpath.m file, if there is an error, you need to modify the path specified in gohome.m file (your local path). 
 
 # Running the examples
 There are five examples included corresponding to the examples in [Robin-type domain decomposition with stabilized mixed approximation for incompressible flow].
